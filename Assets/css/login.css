@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+
+/* LOGIN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f7ff;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.textTitle {
+    font-family: 'Mali', cursive;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.bg_success {
+    background: #12dbb3 !important;
+}
+
+.textButton {
+    font-family: 'Mali', cursive;
+    font-weight: 400;
+    color: #fff;
+}
+
+.login form input[type="submit"] {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    border: 1px #0fbd7a solid !important;
+    color: #0fbd7a !important;
+}
+
+#show-eye {
+    cursor: pointer;
+}
+
+#hide-eye {
+    cursor: pointer;
+}
